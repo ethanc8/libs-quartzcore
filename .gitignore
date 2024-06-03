@@ -11,4 +11,6 @@ _notes/*
 **/.vscode
 **/compile_commands.json
 **/.cache
-Demo/QuartzCoreDemo.app
+Demo/*.app
+**/stamp.make
+
