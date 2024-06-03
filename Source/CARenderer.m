@@ -25,14 +25,6 @@
    Boston, MA 02110-1301, USA.
 */
 
-#import <Foundation/Foundation.h>
-#import "QuartzCore/CARenderer.h"
-#import "QuartzCore/CATransform3D.h"
-#import "QuartzCore/CALayer.h"
-#import "CALayer+FrameworkPrivate.h"
-#import "CATransaction+FrameworkPrivate.h"
-#import "CABackingStore.h"
-#import "CARenderer+FrameworkPrivate.h"
 #if !(__APPLE__)
 #define GL_GLEXT_PROTOTYPES 1
 #import <GL/gl.h>
@@ -43,6 +35,15 @@
 #import <OpenGL/gl.h>
 #import <OpenGL/glu.h>
 #endif
+#import <Foundation/Foundation.h>
+#import "QuartzCore/CARenderer.h"
+#import "QuartzCore/CATransform3D.h"
+#import "QuartzCore/CALayer.h"
+#import "CALayer+FrameworkPrivate.h"
+#import "CATransaction+FrameworkPrivate.h"
+#import "CABackingStore.h"
+#import "CARenderer+FrameworkPrivate.h"
+
 #import <AppKit/NSOpenGL.h>
 
 #import "GLHelpers/CAGLTexture.h"
