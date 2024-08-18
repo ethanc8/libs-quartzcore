@@ -59,6 +59,7 @@ NSString *const kCAGravityTopLeft = @"CAGravityTopLeft";
 NSString *const kCAGravityTopRight = @"CAGravityTopRight";
 NSString *const kCAGravityBottomLeft = @"CAGravityBottomLeft";
 NSString *const kCAGravityBottomRight = @"CAGravityBottomRight";
+NSString *const kCATransition = @"CATransition";
 
 @interface CALayer()
 @property (nonatomic, assign) CALayer * superlayer;

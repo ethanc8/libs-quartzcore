@@ -38,6 +38,15 @@
 
 NSString *const kCAAnimationDiscrete = @"CAAnimationDiscrete";
 
+/* transition types */
+NSString *const kCATransitionMoveIn = @"CATransitionMoveIn";
+
+/* transition subtypes */
+NSString *const kCATransitionFromTop = @"CATransitionFromTop";
+NSString *const kCATransitionFromBottom = @"CATransitionFromBottom";
+NSString *const kCATransitionFromLeft = @"CATransitionFromLeft";
+NSString *const kCATransitionFromRight = @"CATransitionFromRight";
+
 @interface CAAnimation ()
 @property (retain) NSPointerArray *layers;
 - (id) init;
